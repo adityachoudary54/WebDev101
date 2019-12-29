@@ -19,7 +19,7 @@ if(localStorage.getItem('myCode')!==null){
     eventObj.innerText=localStorage.getItem('myCode');
   }
   else{
-    eleDiv.innerText="Enter your code";
+    eventObj.innerText="Enter your code";
   }
 ele.appendChild(eventObj);
 eventObj.addEventListener("click", function(e) {
