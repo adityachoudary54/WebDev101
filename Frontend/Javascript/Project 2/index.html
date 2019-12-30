@@ -48,9 +48,7 @@
         </form>
       </div>
     </nav>
-    <div id="message">
-        
-    </div>
+    <div id="message"></div>
     <div class="container my-3">
       <h2>Coder's Library</h2>
       <hr />
@@ -130,20 +128,21 @@
       </form>
 
       <div id="table">
-          <h2>Your Books</h2>
-          <hr>
-        <table class="table table-striped">
-          <thead>
-            <tr>
-              <th scope="col">Name</th>
-              <th scope="col">Author</th>
-              <th scope="col">Type</th>
-            </tr>
-          </thead>
-          <tbody id='tableBody'>
-                       
-          </tbody>
-        </table>
+        <h2>Your Books</h2>
+        <hr />
+        <div class="table-wrapper-scroll-y overflow-auto" style="height:20rem;">
+          <table class="table table-striped ">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Author</th>
+                <th scope="col">Type</th>
+              </tr>
+            </thead>
+
+            <tbody id="tableBody"></tbody>
+          </table>
+        </div>
       </div>
     </div>
 
