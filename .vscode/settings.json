@@ -1,5 +1,4 @@
 {
     "editor.mouseWheelZoom": true,
-    "editor.wordWrap": "on",
-    "prettier.tabWidth": 4
+    "editor.wordWrap": "on"
 }
