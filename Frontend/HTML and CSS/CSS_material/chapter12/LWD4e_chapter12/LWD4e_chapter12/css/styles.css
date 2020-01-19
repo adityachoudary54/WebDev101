@@ -1,0 +1,78 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    line-height: 1.75em;
+}
+
+h1 {
+    /* font-family: 'Marko One','IBM Plex Serif',Georgia, serif;
+    font-size: 1.5rem; */
+    font: bold 1.5rem 'Marko One', Georgia, serif;
+    color: purple;
+    text-shadow: .1em .1em .2em lightslategray;
+}
+
+h2 {
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    color: purple;
+}
+
+p, dl {
+    font-size: .875rem;
+}
+
+dt {
+    font-weight: bold;
+    color: sienna;
+}
+
+strong {
+    font-style: italic;
+}
+
+dt strong {
+    color: maroon;
+}
+
+/* #info {
+    color: teal;
+} */
+
+#info p {
+    font-style: italic;
+    color: grey;
+}
+
+.price {
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: gray;
+}
+
+.label {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: normal;
+}
+
+p.warning, sup {
+    font-size: x-small;
+    color: red;
+}
+
+h1, h2, #info {
+    text-align: center;
+}
+
+/* adjacent sibling selector */
+
+h2+p {
+    text-align: center;
+    font-style: italic;
+}
