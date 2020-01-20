@@ -1,0 +1,10 @@
+p{
+    font-family:'Roboto Condensed','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    /* font-weight: bold; */
+}
+span{
+    font-weight: bold;
+    font-style: italic;
+}

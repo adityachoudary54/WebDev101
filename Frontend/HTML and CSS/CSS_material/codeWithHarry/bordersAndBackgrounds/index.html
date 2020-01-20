@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Height, width, borders and backgrounds</title>
+    <style>
+        #firstPara{
+            background-color: red;
+            height: 100px;
+            width:455px;
+            border: 2px solid green;
+            /* border-width:4px ;
+            border-style:solid ;
+            border-color: green; */
+            border-radius: 10px;
+        }
+        #secondPara{
+            background-color:rgb(245, 241, 3);
+            height: 100px;
+            width:455px;
+            border-top:2px solid violet;
+            border-right:2px solid rgb(130, 155, 238);
+            border-bottom:2px solid rgb(130, 238, 238);
+            border-left:2px solid rgb(194, 221, 193);
+            border-top-left-radius: 4px;
+            border-top-right-radius: 16px;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 24px;
+        }
+        #thirdPara{
+            height: 500px;
+            width:600px;
+            background-image: url('https://avatars3.githubusercontent.com/u/33027155?s=460&v=4');
+            border: 2px solid red;
+            background-repeat: no-repeat;/*repeat-x repeat-y*/
+            background-position:top right ;
+        }
+    </style>
+</head>
+<body>
+    <h3>This is a heading</h3>
+    <p id="firstPara">This is a paragraph</p>
+    <p id="secondPara">This is second paragraph</p>
+    <p id="thirdPara">This is third paragraph</p>
+
+</body>
+</html>
