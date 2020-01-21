@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/fitness-1882721_960_720.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    font-family: 'Baloo Bhai', cursive,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+} */
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 45px;
+    top: -4px;
+}
+.mid{
+    /* border: 2px solid green; */
+    display:block;
+    width:46%;
+    margin:20px auto;
+}
+.right{
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    right: 36px;
+    top: 33px;
+}  
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color:white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover,.navbar li a:active{
+    color:rgb(104, 96, 96);
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.left img{
+    width: 110px;
+    margin: 0 auto;
+    /* filter: invert(100%); */
+}
+.left div{
+    text-align: center;
+    font-family:'Baloo Bhai', cursive;
+    line-height: 7px;
+    font-size: 22px;
+}
+.btn{
+    margin:0 9px;
+    background-color: black;
+    color: white;
+    padding:4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Baloo Bhai', cursive;
+}
+.btn:hover{
+    background-color: rgb(36, 35, 35);
+}
+.container{
+    /* border: 2px solid white;  */
+    margin: 47px 0px;
+    padding: 65px;
+    width: 45%;
+    border-radius: 33px;
+}
+h1{
+    padding:0;
+    margin: 10px;
+    text-align: center;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width:400px;
+    padding:3px;
+    border: 2px solid black;
+    margin:9px auto;
+    border-radius: 6px;
+    font-size: 18px;
+    font-family:'Baloo bhai',cursive;
+}
+.container button{
+    display: block;
+    width:30%;
+    margin:0 auto;
+}
