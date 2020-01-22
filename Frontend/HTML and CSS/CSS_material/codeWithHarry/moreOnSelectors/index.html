@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>More on selectors</title>
+    <style>
+        .container{
+            border: 2px solid red;
+            background-color: khaki;
+        }
+        /* For applying css to those para whose prev sibling is div */
+        div+p{
+            color:rgb(44, 43, 43);
+            background-color: azure;
+        }
+        /* For applying css to direct child */
+        div > p{
+            color: brown;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>More on selectors</h1>
+    <div class="container">
+        <div class="row">
+            <ul >
+                <li><p>This is para inside li</p> </li>
+                <li>not get affetcted</li>
+            </ul>
+            <p>This is para</p>
+        </div>
+        <p>this is another para</p>
+    </div>
+    <p>This is outermost para</p>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Attribute and nth child pseudo selectors</title>
+    <style>
+        .container{
+            display: block;
+            width:33.3vw;
+            margin:34px auto;
+        }
+        input{
+            display: block;
+        }
+        input[type='text']{
+            padding: 23px;
+            border: 2px solid darkblue;
+        }
+        a[target]{
+            font-size: 34px;
+            color:violet;
+        }
+        a[target='_self']{
+            font-size: 28px;
+            color:green;
+        }
+        li:nth-child(14){
+            color: cyan;
+        }
+        li:nth-child(3n+0){
+            color:blue;
+        }
+        li:nth-child(odd){
+            color:brown;
+        }
+        li:nth-child(even){
+            background-color:brown;
+        }
+    </style>
+</head>
+<body>    
+    <div class="container">
+        <h1><a href="http://google.com" target="_blank">Go to google</a></h1>
+        <a href="http://facebook.com" target="_self">Go to Facebook</a>
+        <form action="noaction.php" class="form-control">
+            <input type="text" placeholder="Enter Your Name">
+            <input type="password" placeholder="Enter the password">
+            <input type="submit" value="submit">
+            <ul>
+                <li class="item" id="item1">Item1</li>
+                <li class="item" id="item2">Item2</li>
+                <li class="item" id="item3">Item3</li>
+                <li class="item" id="item4">Item4</li>
+                <li class="item" id="item5">Item5</li>
+                <li class="item" id="item6">Item6</li>
+                <li class="item" id="item7">Item7</li>
+                <li class="item" id="item8">Item8</li>
+                <li class="item" id="item9">Item9</li>
+                <li class="item" id="item10">Item10</li>
+                <li class="item" id="item11">Item11</li>
+                <li class="item" id="item12">Item12</li>
+                <li class="item" id="item13">Item13</li>
+                <li class="item" id="item14">Item14</li>
+                <li class="item" id="item15">Item15</li>
+                <li class="item" id="item16">Item16</li>
+                <li class="item" id="item17">Item17</li>
+                <li class="item" id="item18">Item18</li>
+                <li class="item" id="item19">Item19</li>
+                <li class="item" id="item20">Item20</li>
+                <li class="item" id="item21">Item21</li>
+                <li class="item" id="item22">Item22</li>
+                <li class="item" id="item23">Item23</li>
+                <li class="item" id="item24">Item24</li>
+                <li class="item" id="item25">Item25</li>
+            </ul>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Variables</title>
+    <style>
+        :root{
+            /* Variables created here can be used anywhere */
+            --primary-color:rgb(0, 217, 255);
+            --danger-color:red;
+            --maxw:70%;
+            --maxh:20rem;
+        }
+        .box{
+            --box-color:green;
+            width: 200px;
+            height: 200px;
+            background-color:var(--box-color);
+            /* border: 2px solid rgba(3, 3, 100, 0.966); */
+            box-shadow: 3px 2px 6px var(--box-color);
+            margin:2px 9px;            
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            width: var(--maxw);
+            height: var(--maxh);
+            margin: auto;
+            justify-content: space-evenly;
+            background-color: var(--primary-color);
+            /* border: 2px solid black; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>
