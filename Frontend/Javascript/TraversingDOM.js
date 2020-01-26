@@ -1,10 +1,11 @@
 console.log('Traversing DOM');
 let cont=document.querySelector('.no');
 cont=document.querySelector('.container')
-let nodeName=cont.childNodes[1].nodeName;
-let nodeType=cont.childNodes[1].nodeType;
-// console.log(nodeType);
-// console.log(nodeName);
+let nodeName=cont.childNodes[0].nodeName;
+let nodeType=cont.childNodes[0].nodeType;
+console.log(nodeType);
+console.log(nodeName);
+console.log(cont.childNodes);
 
 //Node types
 /*

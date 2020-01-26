@@ -1,17 +1,17 @@
-// function greeting(name) {
-//   console.log(`Happy birthday to ${name}`);
-// }
-// function identity(number) {
-//     if((typeof number)===(typeof 1)){
-//         return number;
-//     }
-//     return "This isnt a number";
-// }
-// console.log("This is functions module");
-// // let name='Skillf';
-// // console.log(`Happy birthday to ${name}`);
-// // greeting(prompt('Enter ur name'));
-// greeting('hulahula');
+function greeting(name) {
+  console.log(`Happy birthday to ${name}`);
+}
+function identity(number) {
+    if((typeof number)===(typeof 1)){
+        return number;
+    }
+    return "This isnt a number";
+}
+console.log("This is functions module");
+let name='Skillf';
+console.log(`Happy birthday to ${name}`);
+greeting(prompt('Enter ur name'));
+greeting('hulahula');
 // let val=identity(23);
 // console.log(val);
 // val=identity('23');

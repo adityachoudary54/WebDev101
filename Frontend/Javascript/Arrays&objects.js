@@ -38,7 +38,7 @@ console.log(marks);
 
 
 //object
-console.clear();
+// console.clear();
 let myObj={
     name:'Harry',
     channel:'CodeWithHarry',
@@ -50,6 +50,14 @@ console.log(myObj.isActive);
 console.log(myObj['isActive']);
 
 
+let x=[100,80,90,12,78,15];
+function compare(a,b) {
+    return a-b;
+}
+let a,b;
+console.log(x.sort(function (a,b) {
+    return a-b;
+}));
 
 
 

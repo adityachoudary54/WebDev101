@@ -8,6 +8,13 @@ let eventObj = document.createElement("div");
 eventObj.id = "Ex2div";
 eventObj.className = "Ex2div";
 eventObj.style.color = "red";
+eventObj.setAttribute('style',`
+    border:1px solid black;
+    font-size:2rem;
+    color:red;
+    font-family:sans-serif;
+    width:20%;
+    `);
 // console.log(eventObj);
 if (localStorage.getItem("myCode") !== null) {
     eventObj.innerText = localStorage.getItem("myCode");
@@ -22,6 +29,13 @@ eventObj.addEventListener("click", function(e) {
     let edittext = document.createElement("textarea");
     edittext.id = "Ex2text";
     edittext.className = "Ex2text";
+    edittext.setAttribute('style',`
+    border:1px solid black;
+    font-size:2rem;
+    color:red;
+    font-family:sans-serif;
+    font-weight:bold;
+    `);
     editObj.appendChild(edittext);
     eventObj.replaceWith(editObj);
     // console.log(editObj);

@@ -49,7 +49,6 @@ let arr=[1,2,3,4,5];
 arr.forEach(function(element,index,array){
     console.log(element,index,array);    
 });
-
 let obj={
     name:"Rohan Das",
     age:78,

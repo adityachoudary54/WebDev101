@@ -26,7 +26,7 @@ console.log('Data type is:'+(typeof undef));
 
 //Arrays
 myarr=[1,2,3,4,false,'string'];
-console.log("data type is:"+(typeof myarr));
+console.log(myarr+"data type is:"+(typeof myarr));
 
 //Object Literals
 let marks={

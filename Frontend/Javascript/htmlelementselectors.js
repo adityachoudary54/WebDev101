@@ -6,7 +6,7 @@ multiple element selectors
  */
 
 //single element selectors
-// let element=document.getElementById('first');
+let element=document.getElementById('first');
 // element=element.className;
 // element=element.childNodes;
 // element=element.parentNode;

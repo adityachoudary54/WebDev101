@@ -7,11 +7,13 @@ a=document.all;
 //     console.log(element);    
 // });
 a=document.links[0].href
+let x=[];
 Array.from(document.links).forEach(function(element) {
-    console.log(element.href);
-    
+    if(!(element in x)){
+        x.push(element.href);
+    }    
 });
-console.log(a)
+console.log(x)
 a=document.scripts
 a=document.images
 console.log(a);
